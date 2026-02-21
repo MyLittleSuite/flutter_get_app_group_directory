@@ -6,7 +6,8 @@ issue_tracker: https://github.com/MyLittleSuite/flutter_get_app_group_directory/
 homepage: https://www.mylittlesuite.com
 
 environment:
-  sdk: ">=3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
 
 platforms:
   ios:
