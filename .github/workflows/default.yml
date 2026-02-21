@@ -11,10 +11,15 @@ jobs:
     name: Testing
     uses: ./.github/workflows/analyze.yml
 
+  test:
+    name: Testing
+    uses: ./.github/workflows/test.yml
+
   build:
     name: Build ${{ matrix.platform }}
     needs:
       - analyze
+      - test
     strategy:
       matrix:
         platform: [ ios, macos ]
@@ -22,8 +27,14 @@ jobs:
     with:
       platform: ${{ matrix.platform }}
 
-  publish:
-    name: Publish
+  release:
     needs:
       - build
+    name: Release
+    uses: ./.github/workflows/release.yml
+
+  publish:
+    needs:
+      - release
+    name: Publish
     uses: ./.github/workflows/publish.yml

@@ -3,7 +3,7 @@
 A Flutter plugin for iOS and macOS that resolves the shared container directory for an [App Group](https://developer.apple.com/documentation/xcode/configuring-app-groups).
 
 [![Pub](https://img.shields.io/pub/v/flutter_get_app_group_directory.svg)](https://pub.dev/packages/flutter_get_app_group_directory)
-![Dart CI](https://github.com/MyLittleSuite/flutter_get_app_group_directory/workflows/Dart%20CI/badge.svg)
+![Dart CI](https://github.com/MyLittleSuite/flutter_get_app_group_directory/workflows/Pipeline/badge.svg)
 [![Star on GitHub](https://img.shields.io/github/stars/MyLittleSuite/flutter_get_app_group_directory.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/MyLittleSuite/flutter_get_app_group_directory)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
