@@ -34,7 +34,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_get_app_group_directory: ^0.0.1
+  flutter_get_app_group_directory: 
 ```
 
 ---
