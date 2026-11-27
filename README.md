@@ -34,8 +34,12 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_get_app_group_directory: 
+  flutter_get_app_group_directory: ^1.1.0
 ```
+
+Requires Flutter 3.41.0 or later. The plugin supports both Swift Package Manager and CocoaPods; see the
+[Flutter docs](https://docs.flutter.dev/packages-and-plugins/swift-package-manager/for-app-developers) to enable
+Swift Package Manager in your app.
 
 ---
 
