@@ -1,13 +1,13 @@
 name: flutter_get_app_group_directory
 description: "A Flutter plugin for iOS and macOS that resolves the shared container directory for an App Group."
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/MyLittleSuite/flutter_get_app_group_directory
 issue_tracker: https://github.com/MyLittleSuite/flutter_get_app_group_directory/issues
 homepage: https://www.mylittlesuite.com
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=3.0.0"
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
 
 platforms:
   ios:
